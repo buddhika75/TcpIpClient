@@ -88,6 +88,8 @@ public class TcpIpClient {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Main m = new Main();
+        m.setVisible(true);
          TcpIpClient client = new TcpIpClient("127.0.0.1", 5000);
     }
     
